@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		FAA2337D25026C500058E839 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2337C25026C500058E839 /* AppDelegate.swift */; };
 		FAA2337F25026C500058E839 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2337E25026C500058E839 /* SceneDelegate.swift */; };
-		FAA2338125026C500058E839 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2338025026C500058E839 /* ViewController.swift */; };
 		FAA2338425026C500058E839 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA2338225026C500058E839 /* Main.storyboard */; };
 		FAA2338625026C530058E839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA2338525026C530058E839 /* Assets.xcassets */; };
 		FAA2338925026C530058E839 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA2338725026C530058E839 /* LaunchScreen.storyboard */; };
 		FAA2339425026C540058E839 /* MarvelAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2339325026C540058E839 /* MarvelAPPTests.swift */; };
 		FAA2339F25026C540058E839 /* MarvelAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2339E25026C540058E839 /* MarvelAPPUITests.swift */; };
+		FAA233AD25026CD90058E839 /* MainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA233AC25026CD90058E839 /* MainCollectionViewController.swift */; };
+		FAA233AF25026D660058E839 /* itemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA233AE25026D660058E839 /* itemCollectionViewCell.swift */; };
+		FAA233B32502716D0058E839 /* baseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA233B22502716D0058E839 /* baseData.swift */; };
+		FAA233B92502870F0058E839 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA233B82502870F0058E839 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 		FAA2337925026C500058E839 /* MarvelAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA2337C25026C500058E839 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAA2337E25026C500058E839 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAA2338025026C500058E839 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAA2338325026C500058E839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAA2338525026C530058E839 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA2338825026C530058E839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		FAA2339A25026C540058E839 /* MarvelAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA2339E25026C540058E839 /* MarvelAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAPPUITests.swift; sourceTree = "<group>"; };
 		FAA233A025026C540058E839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA233AC25026CD90058E839 /* MainCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewController.swift; sourceTree = "<group>"; };
+		FAA233AE25026D660058E839 /* itemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemCollectionViewCell.swift; sourceTree = "<group>"; };
+		FAA233B22502716D0058E839 /* baseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baseData.swift; sourceTree = "<group>"; };
+		FAA233B82502870F0058E839 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +105,16 @@
 		FAA2337B25026C500058E839 /* MarvelAPP */ = {
 			isa = PBXGroup;
 			children = (
+				FAA233B1250271560058E839 /* Bean */,
 				FAA2337C25026C500058E839 /* AppDelegate.swift */,
 				FAA2337E25026C500058E839 /* SceneDelegate.swift */,
-				FAA2338025026C500058E839 /* ViewController.swift */,
 				FAA2338225026C500058E839 /* Main.storyboard */,
+				FAA233AC25026CD90058E839 /* MainCollectionViewController.swift */,
+				FAA233AE25026D660058E839 /* itemCollectionViewCell.swift */,
 				FAA2338525026C530058E839 /* Assets.xcassets */,
 				FAA2338725026C530058E839 /* LaunchScreen.storyboard */,
 				FAA2338A25026C530058E839 /* Info.plist */,
+				FAA233B82502870F0058E839 /* DetailViewController.swift */,
 			);
 			path = MarvelAPP;
 			sourceTree = "<group>";
@@ -126,6 +135,14 @@
 				FAA233A025026C540058E839 /* Info.plist */,
 			);
 			path = MarvelAPPUITests;
+			sourceTree = "<group>";
+		};
+		FAA233B1250271560058E839 /* Bean */ = {
+			isa = PBXGroup;
+			children = (
+				FAA233B22502716D0058E839 /* baseData.swift */,
+			);
+			name = Bean;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +275,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA2338125026C500058E839 /* ViewController.swift in Sources */,
 				FAA2337D25026C500058E839 /* AppDelegate.swift in Sources */,
+				FAA233AF25026D660058E839 /* itemCollectionViewCell.swift in Sources */,
+				FAA233AD25026CD90058E839 /* MainCollectionViewController.swift in Sources */,
+				FAA233B92502870F0058E839 /* DetailViewController.swift in Sources */,
+				FAA233B32502716D0058E839 /* baseData.swift in Sources */,
 				FAA2337F25026C500058E839 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,7 +456,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = N8KSD66U34;
 				INFOPLIST_FILE = MarvelAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -445,6 +466,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = class.ep101.MarvelAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = EP101;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -455,7 +477,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = N8KSD66U34;
 				INFOPLIST_FILE = MarvelAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -464,6 +487,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = class.ep101.MarvelAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = EP101;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
