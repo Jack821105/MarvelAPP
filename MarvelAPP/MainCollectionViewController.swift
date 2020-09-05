@@ -10,8 +10,9 @@ import CryptoKit
 //
 private let reuseIdentifier = "Cell"
 let ts = Date().timeIntervalSinceReferenceDate
-let privateKey = "cb2bf8fdc79a6f136e03edcadeab103c2d664f28"
-let publicKey = "c0b49697d520bb69f7b1595e96e0280c"
+// 自行申請金鑰
+let privateKey = ""
+let publicKey = ""
 let md5InputData = "\(ts)\(privateKey)\(publicKey)".data(using: .utf8)!
 let digest = Insecure.MD5.hash(data: md5InputData)
 let hashString = digest.map {
