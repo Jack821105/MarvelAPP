@@ -10,9 +10,8 @@ import CryptoKit
 
 private let reuseIdentifier = "Cell"
 let ts = Date().timeIntervalSinceReferenceDate
-//自行申請金鑰
-let privateKey = ""
-let publicKey = ""
+let privateKey = "cb2bf8fdc79a6f136e03edcadeab103c2d664f28"
+let publicKey = "c0b49697d520bb69f7b1595e96e0280c"
 let md5InputData = "\(ts)\(privateKey)\(publicKey)".data(using: .utf8)!
 let digest = Insecure.MD5.hash(data: md5InputData)
 let hashString = digest.map {
@@ -173,7 +172,7 @@ class MainCollectionViewController: UICollectionViewController {
     }
     */
     //把物件傳至第二頁
-//
+//    
     @IBSegueAction func goTODetail(_ coder: NSCoder) -> DetailViewController? {
         
         let controller = DetailViewController.init(coder: coder)
@@ -186,4 +185,3 @@ class MainCollectionViewController: UICollectionViewController {
         return controller
     }
 }
-
