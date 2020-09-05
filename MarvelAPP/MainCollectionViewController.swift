@@ -10,6 +10,7 @@ import CryptoKit
 
 private let reuseIdentifier = "Cell"
 let ts = Date().timeIntervalSinceReferenceDate
+//自行申請金鑰
 let privateKey = ""
 let publicKey = ""
 let md5InputData = "\(ts)\(privateKey)\(publicKey)".data(using: .utf8)!
