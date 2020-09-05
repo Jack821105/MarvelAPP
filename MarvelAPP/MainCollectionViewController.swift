@@ -172,7 +172,7 @@ class MainCollectionViewController: UICollectionViewController {
     }
     */
     //把物件傳至第二頁
-    
+//    
     @IBSegueAction func goTODetail(_ coder: NSCoder) -> DetailViewController? {
         
         let controller = DetailViewController.init(coder: coder)
